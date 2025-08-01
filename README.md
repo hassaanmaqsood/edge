@@ -6,7 +6,7 @@
 
 Edge is a **fully interactive, browser-based terminal emulator** that brings the nostalgia of the command line into a modern, hackable, and highly extensible web environment.
 
-Built on top of **M.E.T.A. (Modular Extensible Text-based Architecture)**, Edge combines the feel of a UNIX shell with the flexibility of a text editor, giving you a playground for commands, scripts, and creative experiments—right in your browser.
+Built on top of **[M.E.T.A.](https://github.com/hassaanmaqsood/meta)**, Edge combines the feel of a UNIX shell with the flexibility of a text editor, giving you a playground for commands, scripts, and creative experiments—right in your browser.
 
 ---
 
