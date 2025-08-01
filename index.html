@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edge - Terminal for edge devices</title>
+    <link 
+        rel="shortcut icon" 
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👾</text></svg>" 
+        type="image/svg"
+    >
+</head>
+<body>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #000;
+            font-family: 'Courier New', monospace;
+            overflow: hidden;
+        }
+
+        #editor {
+            width: 100vw;
+            height: 100vh;
+            background: #0A0A0A;
+            color: #efefef;
+            font-size: 14px;
+            line-height: 1.2;
+            padding: 10px;
+            box-sizing: border-box;
+            outline: none;
+            overflow-y: auto;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        #editor:focus {
+            outline: none;
+        }
+
+        .prompt {
+            color: #80E8C9;
+        }
+    </style>
+
+    <div id="editor" class="editor" contenteditable="true" spellcheck="false"></div>
+    <script src="./scripts/terminal.js"></script>
+
+</body>
+</html>
