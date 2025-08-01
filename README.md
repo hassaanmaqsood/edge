@@ -96,7 +96,11 @@ greet Hackers
 Edge isn’t just a one-way shell — you can **inject messages from outside sources** using:
 
 ```js
-addIncomingMessage("register new commands with javascript", "local", "/");
+addIncomingMessage(
+  "register new commands with javascript",
+  "local",
+  "/"
+);
 ```
 
 This function:
@@ -116,7 +120,11 @@ Adding it is easy
 
 ```js
 // Push a fake system message
-addIncomingMessage("System reboot scheduled for 5pm", "system", "/var/log");
+addIncomingMessage(
+  "System reboot scheduled for 5pm",
+  "system",
+  "/var/log"
+);
 ```
 
 ➡️ Output in terminal:
