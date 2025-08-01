@@ -27,7 +27,7 @@ Built on top of **[M.E.T.A.](https://github.com/hassaanmaqsood/meta)**, Edge com
 
 ## 📜 Built-in Commands
 
-Some of the **40+ built-in commands** you can use out of the box:
+Some of the **built-in commands** you can use out of the box:
 
 * **`help`** – Lists all commands (or details of a specific one)
 * **`echo`** – Prints back your input
