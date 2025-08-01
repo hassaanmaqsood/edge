@@ -12,7 +12,7 @@ Built on top of **M.E.T.A. (Modular Extensible Text-based Architecture)**, Edge 
 
 ## 🚀 Features
 
-✅ **Web-based terminal** – Runs entirely in the browser. No installs, no servers, just open and type.
+[*] **Web-based terminal** – Runs entirely in the browser. No installs, no servers, just open and type.
 
 ✅ **Command history navigation** – Use `↑` and `↓` arrows to cycle through past commands.
 
