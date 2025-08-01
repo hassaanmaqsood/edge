@@ -2,7 +2,7 @@
 
 *A web-based terminal built on the M.E.T.A. text editor engine*
 
-![META Terminal Screenshot](https://your-screenshot-url.com) <!-- optional image placeholder -->
+![Edge terminal screenshot](https://raw.githubusercontent.com/hassaanmaqsood/edge/160fe7b2369b3c04ad626b627da19ccf8bb39b87/images/ss_meta-terminal.png) <!-- optional image placeholder -->
 
 Edge is a **fully interactive, browser-based terminal emulator** that brings the nostalgia of the command line into a modern, hackable, and highly extensible web environment.
 
