@@ -12,23 +12,15 @@ Built on top of **M.E.T.A. (Modular Extensible Text-based Architecture)**, Edge 
 
 ## 🚀 Features
 
-[*] **Web-based terminal** – Runs entirely in the browser. No installs, no servers, just open and type.
-
-✅ **Command history navigation** – Use `↑` and `↓` arrows to cycle through past commands.
-
-✅ **Rich built-in commands** – From `echo` and `calc` to `roll`, `flip`, and even `caesar` ciphering.
-
-✅ **Context-aware prompt** – Displays dynamic `user@device:path $` for a CLI-like feel.
-
-✅ **Hackable command system** – Easily register your own commands with `regCmd()`.
-
-✅ **Text transformation tools** – Uppercase, lowercase, reverse, repeat, word count, and more.
-
-✅ **Randomizers** – Dice rolls, coin flips, and random number generation built-in.
-
-✅ **Fully client-side** – No backend required; your data and commands stay in the browser.
-
-✅ **Reset & clear** – Wipe the terminal clean with a single `clear`.
+* **Web-based terminal** – Runs entirely in the browser. No installs, no servers, just open and type.
+* **Command history navigation** – Use `↑` and `↓` arrows to cycle through past commands.
+* **Rich built-in commands** – From `echo` and `calc` to `roll`, `flip`, and even `caesar` ciphering.
+* **Context-aware prompt** – Displays dynamic `user@device:path $` for a CLI-like feel.
+* **Hackable command system** – Easily register your own commands with `regCmd()`.
+* **Text transformation tools** – Uppercase, lowercase, reverse, repeat, word count, and more.
+* **Randomizers** – Dice rolls, coin flips, and random number generation built-in.
+* **Fully client-side** – No backend required; your data and commands stay in the browser.
+* **Reset & clear** – Wipe the terminal clean with a single `clear`.
 
 ---
 
