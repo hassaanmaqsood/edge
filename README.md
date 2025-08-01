@@ -17,6 +17,7 @@ Built on top of **M.E.T.A. (Modular Extensible Text-based Architecture)**, Edge 
 * **Rich built-in commands** – From `echo` and `calc` to `roll`, `flip`, and even `caesar` ciphering.
 * **Context-aware prompt** – Displays dynamic `user@device:path $` for a CLI-like feel.
 * **Hackable command system** – Easily register your own commands with `regCmd()`.
+* **Incoming message injection** – Push messages from *other “senders”* into the terminal (great for bots, logs, or multi-user chat).
 * **Text transformation tools** – Uppercase, lowercase, reverse, repeat, word count, and more.
 * **Randomizers** – Dice rolls, coin flips, and random number generation built-in.
 * **Fully client-side** – No backend required; your data and commands stay in the browser.
