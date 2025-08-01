@@ -90,6 +90,43 @@ greet Hackers
 
 ---
 
+## Adding Incoming Messages
+
+Edge isn’t just a one-way shell — you can **inject messages from outside sources** using:
+
+```js
+addIncomingMessage("register new commands with javascript", "local", "/");
+```
+
+This function:
+
+* Creates a **new prompt block** (like `sender@device:/path $ message`)
+* Inserts it **before the user’s active prompt**, just like a remote shell log or system notification.
+* Scrolls the terminal automatically to the new message.
+
+💡 **Use cases:**
+
+* Real-time logs from a backend or IoT device
+* Multi-user chat shells
+* Notifications (“Build complete!”)
+* Teaching demos where the “system” sends hints
+
+Adding it is easy
+
+```js
+// Push a fake system message
+addIncomingMessage("System reboot scheduled for 5pm", "system", "/var/log");
+```
+
+➡️ Output in terminal:
+
+```
+system@local:/var/log $ System reboot scheduled for 5pm
+user@local:/ $
+```
+
+---
+
 ## 🎥 Perfect for:
 
 ✅ **ProductHunt demos** – Interactive & engaging.
@@ -103,6 +140,7 @@ greet Hackers
 
 * [ ] Tab completion for commands & arguments
 * [ ] Persistent history (via localStorage)
+* [ ] Web Component
 * [ ] Theming & custom prompt support
 * [ ] Plugin system for bigger extensions
 
