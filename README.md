@@ -58,9 +58,9 @@ Just open `index.html` in your favorite browser — no server needed.
 
 ---
 
-## 🎯 Why META Terminal?
+## 🎯 Why Edge?
 
-META Terminal is for **makers, hackers, and curious minds** who want:
+Edge is for **makers, hackers, and curious minds** who want:
 
 * A **fun playground** for commands & text experiments.
 * A **hackable base** for building web-based CLI tools.
